@@ -1,0 +1,63 @@
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Login e Registro</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Crie Sua Conta</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>Ou use seu e-mail</span>
+			<input type="text" placeholder="Nome" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Senha" />
+			<button>Registrar</button>
+		</form>
+	</div>
+
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Login</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>ou use sua conta</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Senha" />
+			<a href="#">Esqueceu sua senha?</a>
+			<button>Login</button>
+		</form>
+	</div>
+
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Bem-Vindo de volta!</h1>
+				<p>Para se manter conectado, faça login com suas informações pessoais.</p>
+				<button class="ghost" id="signIn">Login</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Olá, amigo(a)!</h1>
+				<p>Insira seus dados pessoais e comece sua jornada.</p>
+				<button class="ghost" id="signUp">Registrar</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script  src="./script.js"></script>
+
+</body>
+</html>
